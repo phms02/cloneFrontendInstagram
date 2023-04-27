@@ -1,0 +1,8 @@
+VISÃO GERAL:
+    -> Entender que temos um header e um feed.
+        -> O header pode ser um component só dele, isto é, um arquivo que seja responsável apenas pelo header.
+        -> No feed, trabalharemos com uma lista maior, onde teremos várias interações e renderizações condicionais. Usaremos o FlatList.
+    -> Na publicação, temos um card, que possui:
+        -> Um header, com o perfil e o avatar do usuário;
+        -> A foto publicada;
+        -> Quantidade de likes, perfil, etc.

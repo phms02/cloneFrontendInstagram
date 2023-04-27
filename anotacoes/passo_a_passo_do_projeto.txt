@@ -1,0 +1,32 @@
+1ª) Criar estrutura base do arquivo principal (App.js);
+    -> Imports;
+    -> Função principal (function App());
+    -> (opcional) Fazer teste básico, na View principal, para verificar se está mostrando na tela.
+2º) Construir o header, que será um componente. Com isso, criaremos uma pasta e um arquivo responsável somente pelo header.
+    1º -> Criar Criar estrutura base do arquivo principal (App.js);
+        -> Imports;
+        -> Função principal (function App());
+        -> (opcional) Fazer teste básico, na View principal, para verificar se está mostrando na tela.
+    2º -> Colcar a imagens (logo e direct);
+    3º -> Estilizar;
+    4º -> Chamar o Header no arquivo principal (App.js).
+3º) Criar um useState com os nossos dados;
+4º) Construir a lista, que será um componente. Com isso, criaremos uma pasta e um arquivo responsável somente pela lista.
+    1º -> Criar Criar estrutura base do arquivo principal (App.js);
+        -> Imports;
+        -> Função principal (function App());
+        -> (opcional) Fazer teste básico, na View principal, para verificar se está mostrando na tela.
+    2º -> Por meio das props, puxamos as informações de 'data': nome do perfil e foto de perfil;
+        -> Criamos uma View dentro da View mãe e, nela, colocamos a tag <Image/> e uma tag <Text></Text>.
+    3º -> Colocar post;
+        -> Dentro da View mãe e embaixo da View do passo anterior, criamos uma tag <Image/>.
+    4º -> Colocar botões;
+        -> Criar uma função que carrega o ícone do botão conforme o item 'likeada'.
+    5º -> Criar função que mostra as curtidas;
+        -> Se tiver uma curtida, mostra "1 curtida"; se tiver 2 ou mais, mostra "2 curtidas"; se não tiver nenhuma, não mostra nada.
+    6º) Trabalhar com o rodapé;
+        -> Nome do perfil;
+        -> Descrição.
+    7º -> Estilizar;
+    8º -> Chamar o Header no arquivo principal (App.js);
+5º) Criar uma FlatList, com as respectivas propriedades, para renderizar a nossa lista.
